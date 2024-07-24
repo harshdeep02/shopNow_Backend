@@ -25,7 +25,8 @@ startServer();
 // app.use(cors(corsOptions));
 // app.use(cors)
 
-const allowedOrigins = ['http://localhost:5173', 'https://main--shopnowonlinee.netlify.app'];
+// const allowedOrigins = ['http://localhost:5173', 'https://main--shopnowonlinee.netlify.app'];
+const allowedOrigins = ['http://localhost:5173', 'https://shopnowonlinee.netlify.app/'];
 
 // CORS middleware configuration
 const corsOptions = {
